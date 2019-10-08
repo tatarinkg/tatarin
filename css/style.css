@@ -1,0 +1,221 @@
+/*Общие стили */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+a, a:hover{
+    text-decoration: none;
+}
+a, ul, li{
+    display: block;
+}
+button{
+    outline: none;
+    border: none;
+}
+/*Общие стили */
+
+
+.btn{
+    background: #D7B399;
+    color: #fff;
+    text-align: center;
+    padding: 15px 32px;
+    text-transform: uppercase;
+}
+header{
+    padding-top: 50px;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    color: #212121;
+    font-weight: 500;
+}
+.left-menu li{
+    margin-right: 45px;
+}
+.right-menu{
+    margin-left: auto;
+}
+.right-menu li:first-child{
+    margin-right: 35px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.cart svg{
+    margin-right: 32px;
+}
+.cart span{
+    display: block;
+    width: 33px;
+    height: 16px;
+    background: #D7B399;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+}
+.cart span:before{
+    content: '';
+    position: absolute;
+    left: -18px;
+    top: 0;
+    border: 8px solid transparent;
+    border-right: 10px solid #D7B399;
+}
+.header-content{
+    padding: 166px 0 150px;
+}
+.header-item{
+    display: flex;
+    justify-content: space-between;
+}
+.offer-description{
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+}
+.offer-title{
+    font-size: 55px;
+    line-height: 67px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 25px 0 40px;
+}
+.header-offers .btn{
+    width: 240px;
+}
+.header-hero{
+    position: relative;
+}
+.offer-price{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    font-weight: 700;
+    text-align: right;
+}
+.offer-price .old-price{
+    font-size: 24px;
+    text-decoration: line-through;
+}
+.offer-price .new-price{
+    font-size: 51px;
+    color: #D84033;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background: #CECECE;
+    width: 40px;
+    height: 7px;
+    border-radius: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #D7B399
+}
+.owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 70px;
+}
+/* Досставка */
+.delivery{
+    background: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0 70px;
+}
+.delivery-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.delivery-title span{
+    font-weight: 400;
+}
+.delivery-text{
+    font-size: 21px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 23px;
+}
+/* Досставка */
+
+/* Коллекции */
+.wear{
+    position: relative;
+}
+.wear:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #F9F6F1;
+}
+.wear:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #F4F4F4;
+}
+.collection{
+    background: #F9F6F1;
+}
+.collect{
+    width: 522px;
+    display: inline-block;
+    padding: 60px 30px 58px;
+    position: relative;
+    z-index: 2;
+}
+.collect-men{
+    background: url("../images/men.png") no-repeat right bottom;
+}
+.collect-women{
+    background: url("../images/women.png") no-repeat right bottom;
+}
+.collect-title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.collect-title span{
+    font-weight: 400;
+}
+.collect-info{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 15px 0 30px;
+}
+.collect .btn{
+    width: 80px;
+    padding: 8px 32px;
+}
+/* Коллекции */
